@@ -36,15 +36,15 @@ public class ExcursionAventura extends Excursion {
     public String consejosSeguridad(){
         switch(nivelDificultad){
             case 1:
-                return "Nivel 1: lleve protector solar";
+                return "Nivel 1: Mantén una buena hidratación";
             case 2:
-                return "Nivel 2: lleve mucha agua";
+                return "Nivel 2: No camines solo, mantén el grupo";
             case 3:
-                return "Nivel 3: lleve un equipo de primeros auxilios";
+                return "Nivel 3: Haz estiramientos antes de caminar";
             case 4:
-                return "Nivel 4: cuente con experiencia previa";
+                return "Nivel 4: Toma descansos regulares";
             case 5:
-                return "Nivel 5: solo expertos";
+                return "Nivel 5: Actúa rápidamente ante incidentes";
                 
             default:
                 return "Nivel de dificultad no valido";
