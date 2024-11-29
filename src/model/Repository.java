@@ -12,10 +12,7 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- *
- * @author MIPC
- */
+
 class Repository<T extends Serializable> {
     private String filePath;
     private List<T> items;
